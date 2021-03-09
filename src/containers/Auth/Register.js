@@ -3,6 +3,12 @@ import { AuthContent, InputWithLabel, AuthButton, RightAlignedLink } from 'compo
 
 
 class Register extends Component {
+
+    componentWillUnmount() {
+        const { AuthActions } = this.props;
+        AuthActions.initializeForm('register')
+    }
+    
     render() {
         return (
             <AuthContent title="회원가입">
