@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
     "immutable": "^4.0.0-rc.12",
     "open-color": "^1.8.0",
     "react": "^17.0.1",
@@ -15,7 +16,9 @@
     "react-scripts": "4.0.3",
     "redux": "^4.0.5",
     "redux-actions": "^2.6.5",
+    "redux-pender": "^2.0.12",
     "styled-components": "^5.2.1",
+    "validator": "^13.5.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -41,5 +44,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:5000"
 }
